@@ -7,8 +7,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules && cross-env NODE_ENV=production webpack-dev-server --open --hot",
-    "start": "cross-env NODE_ENV=production webpack-dev-server --open --hot"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "start": "node server.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
@@ -17,8 +17,13 @@
     "axios": "^0.15.3",
     "bootstrap": "^4.5.0",
     "core-js": "^3.6.5",
+    "execa": "^5.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "jquery": "^3.5.1",
+    "path": "^0.12.7",
     "popper.js": "^1.16.1",
+    "serve-static": "^1.14.1",
     "style-loader": "^2.0.0",
     "url-loader": "^4.1.1",
     "vee-validate": "^2.0.0-beta.18",
@@ -32,6 +37,7 @@
     "not ie <= 8"
   ],
   "devDependencies": {
+    "execa": "latest",
     "@fortawesome/fontawesome-free": "^5.15.2",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
