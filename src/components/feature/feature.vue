@@ -20,7 +20,7 @@
             </li>
             <li>Tháng 3 Năm 2019 - Nay</li>
             <ul>
-              <li>Thực tập tại công ty Luvina</li>
+              <li>Làm việc tại công ty Luvina</li>
             </ul>
             <li>Tháng 5 Năm 2019</li>
             <ul>

@@ -46,11 +46,6 @@ module.exports = {
     },
     extensions: ["*", ".js", ".vue", ".json"]
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: path.resolve("./public/index.html")
-    })
-  ],
   devServer: {
     historyApiFallback: true,
     noInfo: true,
@@ -75,6 +70,17 @@ if (process.env.NODE_ENV === "production") {
       sourceMap: true,
       compress: {
         warnings: false
+      }
+    }),
+    // below is the plugin you need to add
+    new HtmlWebpackPlugin({
+      filename: path.resolve(__dirname, "./dist/index.html"), // the path where is the `index.html` generated.
+      template: "index.html",
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
       }
     }),
     new webpack.LoaderOptionsPlugin({
