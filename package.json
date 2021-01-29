@@ -6,12 +6,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "client-install": "npm install --prefix client",
-    "start": "node server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "start": "node server.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
@@ -40,7 +37,6 @@
     "not ie <= 8"
   ],
   "devDependencies": {
-    "execa": "latest",
     "@fortawesome/fontawesome-free": "^5.15.2",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -48,7 +44,9 @@
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.11",
+    "execa": "latest",
     "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^4.5.1",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
