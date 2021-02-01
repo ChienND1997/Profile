@@ -65,7 +65,7 @@
 </template>
 <style lang="css">
 #contact {
-  background-image: url("../../assets/images/contact-bg.jpg");
+  background-image: url("../../../src/assets/images/contact-bg.jpg");
 }
 .contact___description {
   color: #fff;

@@ -7,7 +7,7 @@
         <!-- Brand -->
         <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
           <img
-            src="../../assets/images/logo.jpg"
+            src="../../../src/assets/images/logo.jpg"
             alt="avatar"
             loading="lazy"
             class="logo-avatar"
@@ -32,7 +32,7 @@
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link d-sm-flex align-items-sm-center" href="#">
             <img
-              src="../../assets/images/avatar.jpeg"
+              src="../../../src/assets/images/avatar.jpeg"
               class="rounded-circle"
               height="22"
               alt=""

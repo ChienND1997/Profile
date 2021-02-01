@@ -12,7 +12,7 @@
         </div>
         <div class="col-md-6" data-wow-delay="0.6s">
           <img
-            src="../../assets/images/travel.jpg"
+            src="../../../src/assets/images/travel.jpg"
             class="img-responsive"
             alt="feature img"
             width="100%"

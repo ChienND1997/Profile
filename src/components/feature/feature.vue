@@ -44,7 +44,7 @@
         </div>
         <div class="col-md-6" data-wow-delay="0.6s">
           <img
-            src="../../assets/images/career-path.jpg"
+            src="../../../src/assets/images/career-path.jpg"
             class="img-responsive"
             alt="feature img"
             width="100%"
@@ -57,7 +57,7 @@
       <div class="row">
         <div class="col-md-6" data-wow-delay="0.6s">
           <img
-            src="../../assets/images/skill.png"
+            src="../../../src/assets/images/skill.png"
             class="img-responsive"
             alt="feature img"
             width="100%"
