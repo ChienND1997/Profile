@@ -6,8 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "cross-env BABEL_ENV=dev vue-cli-service build",
-    "serve": "cross-env BABEL_ENV=dev vue-cli-service serve",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "start": "node server.js"
   },
   "dependencies": {
