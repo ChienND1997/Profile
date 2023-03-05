@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="row">
-        <p>Copyright © 2021 By ChienND</p>
+        <p>Copyright © {{ new Date().getFullYear() }} By ChienND</p>
       </div>
     </div>
   </footer>

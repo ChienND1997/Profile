@@ -7,9 +7,10 @@
           <div class="col-md-10" data-wow-delay="0.3s">
             <h1 class="text-upper">Software Engineer</h1>
             <p class="tm-white">
-              Software engineering is defined as a process of analyzing user
-              requirements and then designing, building, and testing software
-              application which will satisfy those requirements.
+              Tôi là lập trình viên đã có 4 năm kinh nghiệm với JavaScript và Java
+            </p>
+            <p class="tm-white">
+              Mong muốn tìm kiếm một công việc liên quan đến 2 ngôn ngữ trên
             </p>
           </div>
         </div>

@@ -7,11 +7,6 @@
             <h2 class="text-uppercase">Contact Us</h2>
             <address>
               <p>
-                <b>Address:&ensp;</b><i class="fa fa-map-marker"></i>106 Hoàng
-                Quốc Việt, Cầu Giấy, TP Hà Nội
-              </p>
-              <p><b>Phone:&ensp;</b><i class="fa fa-phone"></i> 123456789</p>
-              <p>
                 <b>Email:&ensp;</b
                 ><i class="fa fa-envelope-o"></i> nguyendangchien1997@gmail.com
               </p>

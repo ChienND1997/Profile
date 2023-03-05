@@ -3,14 +3,6 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6" data-wow-delay="0.6s">
-          <h2 class="text-uppercase">favourite</h2>
-          <ul>
-            <li>Chơi game</li>
-            <li>Tìm hiểu công nghệ liên quan đến JavaScript</li>
-            <li>Du lịch, dã ngoại</li>
-          </ul>
-        </div>
-        <div class="col-md-6" data-wow-delay="0.6s">
           <img
             src="../../../src/assets/images/travel.jpg"
             class="img-responsive"
@@ -18,6 +10,15 @@
             width="100%"
           />
         </div>
+        <div class="col-md-6" data-wow-delay="0.6s">
+          <h2 class="text-uppercase">favourite</h2>
+          <ul>
+            <li>Chơi game</li>
+            <li>Tìm hiểu công nghệ liên quan đến JavaScript</li>
+            <li>Du lịch, dã ngoại</li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </section>
