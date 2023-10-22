@@ -134,6 +134,7 @@
                 <li>Hệ thống giám sát Agent, Connection Account, Job (thực hiện batch tới Agent) của Department, System/SubSystem</li>
                 <li>Phân Loại Job, tạo Schedule, quản lý agent, xuất chart hiện thị thông tin event đã xảy ra</li>
               </ul>
+              <li>Phát triển Agent sử dụng Spring Boot Framework</li>
             </ul>
           </ul>
         </div>
